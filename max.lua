@@ -48,7 +48,7 @@ refresh_bal.on_click(function()
 
     local res = fetch({
         url = "http://212.227.199.94:19800/maxcoin/check",
-        method = "GET",
+        method = "POST",
         headers = { ["Content-Type"] = "application/json" },
         body = body,
     })
