@@ -54,7 +54,7 @@ refresh_bal.on_click(function()
     })
 
     if res["maxcoins"] then
-        bal.set_content(res["maxcoins"])
+        bal.set_content(res["maxcoins"].."𝕄")
     else
         bal.set_content("Error! Code: " .. res.status)
     end
