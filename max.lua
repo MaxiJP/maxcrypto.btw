@@ -10,8 +10,6 @@ local password = get("passwordinput")
 local perm_username
 local token
 
-maxtest.set_content("1".." ".."12")
-
 maxbutt1log.on_click(function()
 
 
@@ -21,7 +19,7 @@ maxbutt1log.on_click(function()
         token = attempt["token"]
         perm_username = username.get_content()
     else 
-        maxtest.set_content("Error! Code: " .. attempt.status)
+        maxtest.set_content("Error! Maybe you have the wrong credentials? Error Code: " .. attempt.status)
     end
 
 end)

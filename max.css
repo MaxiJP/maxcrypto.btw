@@ -1,9 +1,27 @@
 h1 {
     font-size: 64px;
-    color: #a8dba8
+    color: #a8dba8;
+    text-align: center;
 }
 
 body {
     background-color: #000044;
     font-size: 24px;
+}
+
+p {
+    font-size: 24px;
+    text-align: center;
+}
+
+logindiv {
+    direction: column;
+    align-items: left;
+    gap: 7;
+}
+
+balancediv {
+    direction: column;
+    align-items: right;
+    gap:10;
 }
