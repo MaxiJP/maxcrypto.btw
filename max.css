@@ -25,3 +25,8 @@ balancediv {
     align-items: right;
     gap:10;
 }
+
+styling {
+    direction: row;
+    gap: 400;
+}
