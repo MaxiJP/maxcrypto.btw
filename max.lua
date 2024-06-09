@@ -10,6 +10,8 @@ local password = get("passwordinput")
 local perm_username
 local token
 
+local currency = "𝕸"
+
 maxbutt1log.on_click(function()
 
 
@@ -52,7 +54,7 @@ refresh_bal.on_click(function()
     })
 
     if res["maxcoins"] then
-        bal.set_content(res["maxcoins"].."𝕄")
+        bal.set_content(res["maxcoins"]..currency)
     else
         bal.set_content("Error! Code: " .. res.status)
     end
